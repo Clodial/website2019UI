@@ -1,14 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RouterModule, Routes} from '@angular/router';
 import { AppComponent } from './app.component';
+import { LandButton } from './components/landPage/landButton/landButton.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandButton
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
