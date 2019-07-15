@@ -1,0 +1,27 @@
+.landButton{
+    width: 120px;
+    height:40px;
+    color: white;
+    background-color:white;
+    border: 1px solid #6d91cb;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    display:inline-block;
+    text-align:center;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.landButton p{
+    color: #6d91cb;
+    margin: auto;
+    font-size: 24px;
+    padding:5px;
+}
+.landButton:hover{
+    background-color: #6d91cb;
+}
+.landButton:hover p{
+    color:white;
+}

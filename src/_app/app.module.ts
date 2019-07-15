@@ -1,19 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes} from '@angular/router';
+import { AppRouterModule } from './app-router.module';
 import { AppComponent } from './app.component';
-import { LandButton } from './components/landPage/landButton/landButton.component';
+import { LandingPageModule } from './components/landPage/landingPageModule.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LandButton
-  ],
   imports: [
     BrowserModule,
-    RouterModule
+    AppRouterModule,
+    LandingPageModule
   ],
-  providers: [],
+  declarations: [
+    AppComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
