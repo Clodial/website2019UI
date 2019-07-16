@@ -1,0 +1,51 @@
+/**
+*
+*   Fade in Animation
+*
+**/
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes padDown {
+    from { padding:20px; }
+    to   { padding:50px; }
+}
+
+/**
+*
+*   padding-top down Animation
+*
+**/
+@keyframes padDown {
+    from { padding-top:20px; }
+    to   { padding-top:50px; }
+}
+@-moz-keyframes padDown {
+    from { padding-top:20px; }
+    to   { padding-top:50px; }
+}
+@-webkit-keyframes padDown {
+    from { padding-top:20px; }
+    to   { padding-top:50px; }
+}
+@-ms-keyframes padDown {
+    from { padding-top:20px; }
+    to   { padding-top:50px; }
+}
+@-o-keyframes padDown {
+    from { padding-top:20px; }
+    to   { padding-top:50px; }
+}

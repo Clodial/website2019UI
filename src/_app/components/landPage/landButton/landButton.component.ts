@@ -3,7 +3,8 @@ import {Component, Input} from '@angular/core';
 @Component({
     selector: 'land-button',
     templateUrl: './landButton.component.html',
-    styleUrls: ['./landButton.component.css']
+    styleUrls: ['../../../../mainStyle.css',
+                './landButton.component.css']
 })
 export class LandButton{
 

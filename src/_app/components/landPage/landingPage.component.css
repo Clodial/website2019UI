@@ -1,14 +1,24 @@
 #landingImage{
-    padding-top:50px;
     width:100%;
     padding-bottom: 20px;
+    padding-top:50px;
     text-align: center;
+    -webkit-animation: padDown 2s;
+    -moz-animation: padDown 2s;
+    -ms-animation: padDown 2s;
+    -o-animation: padDown 2s;
+    animation: padDown 2s;
 }
 
 #landingImage img{
     height: 350px;
     width: 350px;
     display:inline-block;
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation: fadein 1s;
 }
 
 .landingButtonPlacer{
