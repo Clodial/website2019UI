@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LandingPage } from './landingPage.component';
 import { LandButton } from './landButton/landButton.component';
+import { CommonCoreModule } from './../_common/commonCore.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { LandButton } from './landButton/landButton.component';
   ],
   imports: [
     BrowserModule,
+    CommonCoreModule
   ],
   bootstrap: [LandingPage]
 })

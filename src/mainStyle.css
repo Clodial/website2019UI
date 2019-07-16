@@ -1,7 +1,5 @@
 /**
-*
 *   Fade in Animation
-*
 **/
 @keyframes fadein {
     from { opacity: 0; }
@@ -25,9 +23,7 @@
 }
 
 /**
-*
 *   padding-top down Animation
-*
 **/
 @keyframes padDown {
     from { padding-top:20px; }
@@ -48,4 +44,21 @@
 @-o-keyframes padDown {
     from { padding-top:20px; }
     to   { padding-top:50px; }
+}
+
+/**
+* Font Stuff
+**/
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: #6d91cb;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size:30px;
 }
