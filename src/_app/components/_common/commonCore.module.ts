@@ -4,8 +4,7 @@ import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
     declarations : [ FooterComponent ],
-    imports : [ BrowserModule ]
+    imports : [ BrowserModule ],
+    exports : [ FooterComponent ]
 })
-export class CommonCoreModule{
-    
-}
+export class CommonCoreModule{}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
     selector: 'core-footer',
@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
                 './footer.component.css']
 })
 export class FooterComponent{
-    
+
+    @HostListener('window:scroll', ['$event'])
+    onScroll(event) {
+        event.target.bottom = 0;
+        event.target.left = 0;
+    }
+    @HostListener('window:resize', ['$event'])
+    onResize(event) {
+        event.target.bottom = 0;
+        event.target.left = 0;
+    }
 }
