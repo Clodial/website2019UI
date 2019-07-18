@@ -17,11 +17,15 @@
     animation: bottomUp 1s;
 }
 
-#footer p{
+#footer-content{
+    margin-top:5px;
+    height:45px;
+}
+
+#footer-content p{
     color: white;
     text-align: center;
 }
-
 /**
 *   padding-top down Animation
 **/

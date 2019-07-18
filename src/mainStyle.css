@@ -26,24 +26,24 @@
 *   padding-top down Animation
 **/
 @keyframes padDown {
-    from { padding-top:20px; }
-    to   { padding-top:50px; }
+    from { padding-top:0px; }
+    to   { padding-top:25px; }
 }
 @-moz-keyframes padDown {
-    from { padding-top:20px; }
-    to   { padding-top:50px; }
+    from { padding-top:0px; }
+    to   { padding-top:25px; }
 }
 @-webkit-keyframes padDown {
-    from { padding-top:20px; }
-    to   { padding-top:50px; }
+    from { padding-top:0px; }
+    to   { padding-top:25px; }
 }
 @-ms-keyframes padDown {
-    from { padding-top:20px; }
-    to   { padding-top:50px; }
+    from { padding-top:0px; }
+    to   { padding-top:25px; }
 }
 @-o-keyframes padDown {
-    from { padding-top:20px; }
-    to   { padding-top:50px; }
+    from { padding-top:0px; }
+    to   { padding-top:25px; }
 }
 
 /**
@@ -61,6 +61,7 @@ h1{
 }
 h2{
     font-size: 45px;
+    margin:10px;
 }
 h3{
     font-size:30px;

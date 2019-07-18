@@ -4,8 +4,8 @@
 
 #landingImage{
     width:100%;
-    padding-bottom: 20px;
-    padding-top:50px;
+    /* padding-bottom:20px; */
+    padding-top:25px;
     text-align: center;
     -webkit-animation: padDown 2s;
     -moz-animation: padDown 2s;
